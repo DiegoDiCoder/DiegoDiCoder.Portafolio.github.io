@@ -1,0 +1,130 @@
+body,
+html {
+  width: auto;
+  height: 1000px;
+  font-family: 'Work Sans', sans-serif;
+   background: darkgray;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.background{
+  background:url('bg image.png');
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.background2{
+   background:linear-gradient(whitesmoke,darkgray);
+  width: auto;
+  height:300px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+img{
+  width: 400px;
+  height: 400px;
+  margin: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.nav{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+.flex-container {
+  /* We first create a flex layout context */
+  display: flex; 
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around; 
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.flex-item{
+  z-index: 11;
+}
+a {
+  text-decoration: none;
+}
+h2 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.5em;
+  color: white;
+  margin: 60px 15px;
+  cursor: pointer;
+  z-index: 0;
+  transition: all 1s;
+}
+
+p {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 2em;
+  color: whitesmoke;
+  padding: 400px;
+  margin: 0;
+  position: relative;
+  bottom: 300px;
+}
+
+h3 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 2em;
+  color: whitesmoke;
+  margin: 60px 15px;
+  transition: all 1s;
+}
+
+h2:hover{
+  color: gray;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 2;
+    color: darkblue;
+}
+
+.fa-facebook {
+  opacity: 1;
+  color: white;
+}
+footer  {
+  height: 100px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
